@@ -1,0 +1,32 @@
+.hero-line {
+  opacity: 0;
+  transform: translateY(10px);
+  animation: heroLineIn 0.7s ease forwards;
+  text-shadow: 0 6px 20px rgba(0, 0, 0, 0.6);
+}
+
+.hero-line + .hero-line {
+  margin-top: 6px;
+}
+
+.hero-line-title {
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+.hero-line-text {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.82);
+}
+
+@keyframes heroLineIn {
+  0% {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

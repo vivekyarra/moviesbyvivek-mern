@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600&family=Black+Ops+One&display=swap");
+
+.brand {
+  line-height: 1;
+  background: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.brand-title {
+  font-family: "Black Ops One", "Impact", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  letter-spacing: 1px;
+  text-transform: lowercase;
+  color: var(--text-main);
+}
+
+.brand-subtitle {
+  font-family: "Barlow Condensed", "Arial Narrow", sans-serif;
+  font-size: 10px;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-top: 2px;
+}

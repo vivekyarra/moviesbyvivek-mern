@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root[data-theme="dark"] {
+  --app-bg: #0f0f14;
+  --app-bg-alt: #131313;
+  --surface: #111111;
+  --surface-alt: #1e1e1e;
+  --navbar-bg: #0b1220;
+  --border-color: rgba(255, 255, 255, 0.1);
+  --text-main: #f8fafc;
+  --text-muted: #9ca3af;
+  --text-subtle: #94a3b8;
+  --text-invert: #0b1220;
+  --accent: #22d3ee;
+  --seat-occupied-bg: rgba(255, 255, 255, 0.2);
+  --seat-occupied-text: rgba(255, 255, 255, 0.4);
+  --seat-disabled-bg: rgba(255, 255, 255, 0.1);
+  --seat-disabled-text: rgba(255, 255, 255, 0.3);
+  --seat-border: rgba(255, 255, 255, 0.4);
+  --seat-screen: rgba(168, 85, 247, 0.4);
+  --seat-screen-text: #c084fc;
+}
+
+:root[data-theme="light"] {
+  --app-bg: #f4f6fb;
+  --app-bg-alt: #ffffff;
+  --surface: #ffffff;
+  --surface-alt: #e9eef7;
+  --navbar-bg: #ffffff;
+  --border-color: rgba(15, 23, 42, 0.12);
+  --text-main: #0f172a;
+  --text-muted: #475569;
+  --text-subtle: #64748b;
+  --text-invert: #ffffff;
+  --accent: #0ea5e9;
+  --seat-occupied-bg: rgba(15, 23, 42, 0.18);
+  --seat-occupied-text: rgba(15, 23, 42, 0.5);
+  --seat-disabled-bg: rgba(15, 23, 42, 0.08);
+  --seat-disabled-text: rgba(15, 23, 42, 0.35);
+  --seat-border: rgba(15, 23, 42, 0.3);
+  --seat-screen: rgba(37, 99, 235, 0.3);
+  --seat-screen-text: #1d4ed8;
+}
+
+body {
+  background: var(--app-bg);
+  color: var(--text-main);
+}
